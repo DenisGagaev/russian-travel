@@ -1,0 +1,5 @@
+.place__section-title {
+    max-width: 100%;
+    display: flex;
+    margin-bottom: 48px;
+}

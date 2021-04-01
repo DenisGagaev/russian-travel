@@ -1,0 +1,5 @@
+.place__section-subtitle {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
