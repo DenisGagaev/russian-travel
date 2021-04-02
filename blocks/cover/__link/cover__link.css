@@ -3,7 +3,7 @@
     text-decoration: none;
     display: block;
     margin: 0;
-    padding: 245px 312px;
+    padding: 245px 0;
     background:url(../../../images/cover-trains.jpg) no-repeat center;
     background-size: 100% 100%;
     z-index: 1;
@@ -28,6 +28,26 @@
 
 @media (max-width: 1050px) {
     .cover__link {
-        padding: 195px 232px;
+        padding: 195px 0;
+    }
+  }
+  @media (max-width: 820px) {
+    .cover__link {
+        padding: 115px 0;
+    }
+  }
+  @media (max-width: 700px) {
+    .cover__link {
+        padding: 78px 0;
+    }
+  }
+  @media (max-width: 540px) {
+    .cover__link {
+        padding: 55px 0;
+    }
+  }
+  @media (max-width: 450px) {
+    .cover__link {
+        padding: 33px 0;
     }
   }

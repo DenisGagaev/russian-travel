@@ -15,3 +15,16 @@
         padding-left: 24px;
     }
   }
+
+  @media (max-width: 820px) {
+    .intro {
+        padding-bottom: 88px;
+    }
+  }
+  @media (max-width: 450px) {
+    .intro {
+        padding-bottom: 64px;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+  }

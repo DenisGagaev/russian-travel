@@ -11,3 +11,23 @@
         padding-bottom: 580px;
     }
   }
+  @media (max-width: 820px) {
+    .lead__image {
+        padding-bottom: 480px;
+    }
+  }
+  @media (max-width: 700px) {
+    .lead__image {
+        padding-bottom: 380px;
+    }
+  }
+  @media (max-width: 540px) {
+    .lead__image {
+        padding-bottom: 340px;
+    }
+  }
+  @media (max-width: 450px) {
+    .lead__image {
+        padding-bottom: 200px;
+    }
+  }

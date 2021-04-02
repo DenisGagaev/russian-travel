@@ -1,5 +1,12 @@
 .place__section-title {
-    max-width: 100%;
+    width: 100%;
     display: flex;
     margin-bottom: 48px;
+}
+
+@media (max-width: 650px) {
+    .place__section-title {
+    margin-bottom: 32px;
+    flex-direction: column;
+  }
 }

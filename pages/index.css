@@ -33,6 +33,7 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__section-title/place__section-title.css);
 @import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__title-text/place__title-text.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__section-subtitle/place__section-subtitle.css);

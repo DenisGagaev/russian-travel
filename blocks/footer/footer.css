@@ -1,8 +1,23 @@
 .footer {
     font-family: 'Inter', sans-serif;
     display: flex;
-    flex-wrap: wrap;
     padding: 0 48px 24px;
     max-width: 1184px;
     justify-content: space-between;
 }
+
+@media (max-width: 993px) {
+    .footer {
+        padding: 0 24px 24px;
+    }
+  }
+@media (max-width: 700px) {
+    .footer {
+        flex-direction: column;
+    }
+  }
+  @media (max-width: 450px) {
+    .footer {
+        padding: 0 16px 24px;
+    }
+  }

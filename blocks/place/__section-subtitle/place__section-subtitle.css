@@ -3,3 +3,8 @@
     display: flex;
     justify-content: space-between;
 }
+@media (max-width: 650px) {
+    .place__section-subtitle {
+        flex-direction: column;
+    }
+  }
