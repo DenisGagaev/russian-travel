@@ -2,15 +2,19 @@
 
 @import url(../vendor/fonts/fonts.css);
 
-@import url(../blocks/position-center/position-center.css);
-
 @import url(../blocks/body/body.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 @import url(../blocks/content/content.css);
+@import url(../blocks/content/__lead/content__lead.css);
+@import url(../blocks/content/__intro/content__intro.css);
+@import url(../blocks/content/__photo-grid/content__photo-grid.css);
+@import url(../blocks/content/__places/content__places.css);
+@import url(../blocks/content/__cover/content__cover.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
@@ -31,22 +35,18 @@
 
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
-@import url(../blocks/place/__section-title/place__section-title.css);
 @import url(../blocks/place/__title/place__title.css);
-@import url(../blocks/place/__title-text/place__title-text.css);
-@import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__website/place__website.css);
-@import url(../blocks/place/__section-subtitle/place__section-subtitle.css);
-@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);
-@import url(../blocks/place/__paragraph/place__paragraph.css);
-@import url(../blocks/place/__text/place__text.css);
-@import url(../blocks/place/__images/place__images.css);
+@import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__image/_kosa/place__image_kosa.css);
 @import url(../blocks/place/__image/_kolsky/place__image_kolsky.css);
 @import url(../blocks/place/__image/_karelia/place__image_karelia.css);
 @import url(../blocks/place/__image/_baikal/place__image_baikal.css);
 @import url(../blocks/place/__image/_altai/place__image_altai.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__text/place__text.css);
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__link/cover__link.css);

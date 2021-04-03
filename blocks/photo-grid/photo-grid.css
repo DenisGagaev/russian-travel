@@ -1,23 +1,23 @@
 .photo-grid {
     display: grid;
-    max-width: 1184px;
     grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
     grid-template-rows: repeat(auto-fit, minmax(213px, max-content));
     gap: 16px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 48px;
+    padding-right: 48px;
 }
 
 
 @media (max-width: 1050px) {
     .photo-grid {
         gap: 14px;
-        max-width: 928px;
     }
   }
   @media (max-width: 820px) {
     .photo-grid {
         gap: 16px;
+        padding-left: 24px;
+        padding-right: 24px;
     }
   }
   @media (max-width: 450px) {
