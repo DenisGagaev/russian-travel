@@ -2,7 +2,7 @@
  width: 100%;
  font-family: 'Inter', sans-serif;
  margin-bottom: 80px;
- display: grid; 
+ display: grid;
  grid-template-columns: 460px auto;
  grid-template-rows: repeat(2, max-content);
  row-gap: 48px;
