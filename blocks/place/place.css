@@ -34,7 +34,6 @@
 @media (max-width: 700px) {
     .place {
         grid-template-columns: 320px auto;
-        margin-bottom: 72px;
     }
   }
   @media (max-width: 650px) {
